@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SaaS Demand Engine</title>
+
+  <style>
+    :root {
+      --pink: #F149E7;
+      --purple-dark: #5F3798;
+      --purple: #6035BA;
+      --lavender: #E78DE8;
+      --bg: #0f0b1e;
+      --text: #ffffff;
+      --muted: #cfc7e6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top, var(--purple-dark), var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      background: linear-gradient(90deg, var(--pink), var(--lavender));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      color: var(--muted);
+      margin-bottom: 16px;
+      max-width: 720px;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 120px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(241, 73, 231, 0.15);
+      color: var(--pink);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 18px 32px;
+      background: linear-gradient(90deg, var(--pink), var(--lavender));
+      color: #0f0b1e;
+      font-weight: 700;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 30px rgba(241, 73, 231, 0.3);
+      max-width: 100%;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(241, 73, 231, 0.45);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--purple), var(--purple-dark));
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    }
+
+    .card h3 {
+      color: var(--lavender);
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+      color: var(--muted);
+    }
+
+    .highlight {
+      background: linear-gradient(90deg, var(--pink), var(--lavender));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    footer {
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="badge">Accompagnement 1:1 — CEOs SaaS</div>
+    <h1>SaaS Demand Engine</h1>
+    <p>
+      Structurer la demande pour réduire la dépendance à l’effort
+      et construire une croissance plus lisible et plus stable.
+    </p>
+
+    <a
+      href="https://tally.so/r/5B4OeQ"
+      class="cta"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Envie de voir si SaaS Demand Engine est un bon levier pour toi ?
+    </a>
+  </section>
+
+  <!-- PROBLÈME -->
+  <section>
+    <h2>La réalité</h2>
+    <p>
+      Ton SaaS fonctionne. L’activité existe. Les équipes sont engagées.
+      Mais la traction reste fragile, car elle repose encore trop sur
+      l’intensité et l’effort interne.
+    </p>
+    <p>
+      Le problème n’est ni l’exposition, ni le volume, ni le canal.
+      <span class="highlight">Le problème est structurel.</span>
+    </p>
+  </section>
+
+  <!-- CADRE -->
+  <section>
+    <h2>Le cadre SaaS Demand Engine</h2>
+    <p>
+      Un accompagnement 1:1 où je travaille aux côtés du CEO,
+      non pas comme exécutant, mais comme bras droit stratégique.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Mon rôle</h3>
+        <ul>
+          <li>Prendre du recul avec toi</li>
+          <li>Structurer la demande comme un système</li>
+          <li>Maintenir la cohérence dans le temps</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Ton rôle</h3>
+        <ul>
+          <li>Porter la vision</li>
+          <li>Arbitrer</li>
+          <li>Ancrer les décisions dans l’entreprise</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHASES -->
+  <section>
+    <h2>3 phases — 3 mois</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Phase 1 — Clarté</h3>
+        <p>
+          Savoir exactement quoi dire, pour qui,
+          et pourquoi ça compte.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Phase 2 — Déploiement</h3>
+        <p>
+          Déployer strictement ce qui a été clarifié.
+          Rien de nouveau. Aucune improvisation.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Phase 3 — Ajustement</h3>
+        <p>
+          Réduire l’effort, amplifier ce qui fonctionne,
+          et ancrer une structure durable.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="center">
+    <h2>En une phrase</h2>
+    <p>
+      J’aide les CEOs SaaS à réduire leur dépendance à l’effort
+      en structurant la demande comme un système.
+    </p>
+
+    <a
+      href="https://tally.so/r/5B4OeQ"
+      class="cta"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Envie de voir si SaaS Demand Engine est un bon levier pour toi ?
+    </a>
+  </section>
+
+  <footer>
+    © SaaS Demand Engine — Accompagnement stratégique 1:1
+  </footer>
+
+</body>
+</html>
